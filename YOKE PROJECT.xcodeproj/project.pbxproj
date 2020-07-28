@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49FEE3D224D0E63B00B7F6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE3D124D0E63B00B7F6C1 /* AppDelegate.swift */; };
+		49FEE3D424D0E63B00B7F6C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE3D324D0E63B00B7F6C1 /* SceneDelegate.swift */; };
+		49FEE3D624D0E63B00B7F6C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE3D524D0E63B00B7F6C1 /* ContentView.swift */; };
+		49FEE3D824D0E63E00B7F6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FEE3D724D0E63E00B7F6C1 /* Assets.xcassets */; };
+		49FEE3DB24D0E63E00B7F6C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FEE3DA24D0E63E00B7F6C1 /* Preview Assets.xcassets */; };
+		49FEE3DE24D0E63E00B7F6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FEE3DC24D0E63E00B7F6C1 /* LaunchScreen.storyboard */; };
+		49FEE3E924D0E63E00B7F6C1 /* YOKE_PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE3E824D0E63E00B7F6C1 /* YOKE_PROJECTTests.swift */; };
+		49FEE3F424D0E63E00B7F6C1 /* YOKE_PROJECTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE3F324D0E63E00B7F6C1 /* YOKE_PROJECTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49FEE3E524D0E63E00B7F6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49FEE3C624D0E63A00B7F6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FEE3CD24D0E63A00B7F6C1;
+			remoteInfo = "YOKE PROJECT";
+		};
+		49FEE3F024D0E63E00B7F6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49FEE3C624D0E63A00B7F6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FEE3CD24D0E63A00B7F6C1;
+			remoteInfo = "YOKE PROJECT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49FEE3CE24D0E63B00B7F6C1 /* YOKE PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YOKE PROJECT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FEE3D124D0E63B00B7F6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49FEE3D324D0E63B00B7F6C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49FEE3D524D0E63B00B7F6C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49FEE3D724D0E63E00B7F6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49FEE3DA24D0E63E00B7F6C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49FEE3DD24D0E63E00B7F6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49FEE3DF24D0E63E00B7F6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FEE3E424D0E63E00B7F6C1 /* YOKE PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YOKE PROJECTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FEE3E824D0E63E00B7F6C1 /* YOKE_PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOKE_PROJECTTests.swift; sourceTree = "<group>"; };
+		49FEE3EA24D0E63E00B7F6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FEE3EF24D0E63E00B7F6C1 /* YOKE PROJECTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YOKE PROJECTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FEE3F324D0E63E00B7F6C1 /* YOKE_PROJECTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOKE_PROJECTUITests.swift; sourceTree = "<group>"; };
+		49FEE3F524D0E63F00B7F6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FEE3CB24D0E63A00B7F6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FEE3E124D0E63E00B7F6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FEE3EC24D0E63E00B7F6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49FEE3C524D0E63A00B7F6C1 = {
+			isa = PBXGroup;
+			children = (
+				49FEE3D024D0E63B00B7F6C1 /* YOKE PROJECT */,
+				49FEE3E724D0E63E00B7F6C1 /* YOKE PROJECTTests */,
+				49FEE3F224D0E63E00B7F6C1 /* YOKE PROJECTUITests */,
+				49FEE3CF24D0E63B00B7F6C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49FEE3CF24D0E63B00B7F6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49FEE3CE24D0E63B00B7F6C1 /* YOKE PROJECT.app */,
+				49FEE3E424D0E63E00B7F6C1 /* YOKE PROJECTTests.xctest */,
+				49FEE3EF24D0E63E00B7F6C1 /* YOKE PROJECTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49FEE3D024D0E63B00B7F6C1 /* YOKE PROJECT */ = {
+			isa = PBXGroup;
+			children = (
+				49FEE3D124D0E63B00B7F6C1 /* AppDelegate.swift */,
+				49FEE3D324D0E63B00B7F6C1 /* SceneDelegate.swift */,
+				49FEE3D524D0E63B00B7F6C1 /* ContentView.swift */,
+				49FEE3D724D0E63E00B7F6C1 /* Assets.xcassets */,
+				49FEE3DC24D0E63E00B7F6C1 /* LaunchScreen.storyboard */,
+				49FEE3DF24D0E63E00B7F6C1 /* Info.plist */,
+				49FEE3D924D0E63E00B7F6C1 /* Preview Content */,
+			);
+			path = "YOKE PROJECT";
+			sourceTree = "<group>";
+		};
+		49FEE3D924D0E63E00B7F6C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49FEE3DA24D0E63E00B7F6C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49FEE3E724D0E63E00B7F6C1 /* YOKE PROJECTTests */ = {
+			isa = PBXGroup;
+			children = (
+				49FEE3E824D0E63E00B7F6C1 /* YOKE_PROJECTTests.swift */,
+				49FEE3EA24D0E63E00B7F6C1 /* Info.plist */,
+			);
+			path = "YOKE PROJECTTests";
+			sourceTree = "<group>";
+		};
+		49FEE3F224D0E63E00B7F6C1 /* YOKE PROJECTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49FEE3F324D0E63E00B7F6C1 /* YOKE_PROJECTUITests.swift */,
+				49FEE3F524D0E63F00B7F6C1 /* Info.plist */,
+			);
+			path = "YOKE PROJECTUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49FEE3CD24D0E63A00B7F6C1 /* YOKE PROJECT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FEE3F824D0E63F00B7F6C1 /* Build configuration list for PBXNativeTarget "YOKE PROJECT" */;
+			buildPhases = (
+				49FEE3CA24D0E63A00B7F6C1 /* Sources */,
+				49FEE3CB24D0E63A00B7F6C1 /* Frameworks */,
+				49FEE3CC24D0E63A00B7F6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YOKE PROJECT";
+			productName = "YOKE PROJECT";
+			productReference = 49FEE3CE24D0E63B00B7F6C1 /* YOKE PROJECT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49FEE3E324D0E63E00B7F6C1 /* YOKE PROJECTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FEE3FB24D0E63F00B7F6C1 /* Build configuration list for PBXNativeTarget "YOKE PROJECTTests" */;
+			buildPhases = (
+				49FEE3E024D0E63E00B7F6C1 /* Sources */,
+				49FEE3E124D0E63E00B7F6C1 /* Frameworks */,
+				49FEE3E224D0E63E00B7F6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FEE3E624D0E63E00B7F6C1 /* PBXTargetDependency */,
+			);
+			name = "YOKE PROJECTTests";
+			productName = "YOKE PROJECTTests";
+			productReference = 49FEE3E424D0E63E00B7F6C1 /* YOKE PROJECTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49FEE3EE24D0E63E00B7F6C1 /* YOKE PROJECTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FEE3FE24D0E63F00B7F6C1 /* Build configuration list for PBXNativeTarget "YOKE PROJECTUITests" */;
+			buildPhases = (
+				49FEE3EB24D0E63E00B7F6C1 /* Sources */,
+				49FEE3EC24D0E63E00B7F6C1 /* Frameworks */,
+				49FEE3ED24D0E63E00B7F6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FEE3F124D0E63E00B7F6C1 /* PBXTargetDependency */,
+			);
+			name = "YOKE PROJECTUITests";
+			productName = "YOKE PROJECTUITests";
+			productReference = 49FEE3EF24D0E63E00B7F6C1 /* YOKE PROJECTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49FEE3C624D0E63A00B7F6C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jorge Daboub";
+				TargetAttributes = {
+					49FEE3CD24D0E63A00B7F6C1 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					49FEE3E324D0E63E00B7F6C1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 49FEE3CD24D0E63A00B7F6C1;
+					};
+					49FEE3EE24D0E63E00B7F6C1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 49FEE3CD24D0E63A00B7F6C1;
+					};
+				};
+			};
+			buildConfigurationList = 49FEE3C924D0E63A00B7F6C1 /* Build configuration list for PBXProject "YOKE PROJECT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49FEE3C524D0E63A00B7F6C1;
+			productRefGroup = 49FEE3CF24D0E63B00B7F6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49FEE3CD24D0E63A00B7F6C1 /* YOKE PROJECT */,
+				49FEE3E324D0E63E00B7F6C1 /* YOKE PROJECTTests */,
+				49FEE3EE24D0E63E00B7F6C1 /* YOKE PROJECTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49FEE3CC24D0E63A00B7F6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FEE3DE24D0E63E00B7F6C1 /* LaunchScreen.storyboard in Resources */,
+				49FEE3DB24D0E63E00B7F6C1 /* Preview Assets.xcassets in Resources */,
+				49FEE3D824D0E63E00B7F6C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FEE3E224D0E63E00B7F6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FEE3ED24D0E63E00B7F6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FEE3CA24D0E63A00B7F6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FEE3D224D0E63B00B7F6C1 /* AppDelegate.swift in Sources */,
+				49FEE3D424D0E63B00B7F6C1 /* SceneDelegate.swift in Sources */,
+				49FEE3D624D0E63B00B7F6C1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FEE3E024D0E63E00B7F6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FEE3E924D0E63E00B7F6C1 /* YOKE_PROJECTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FEE3EB24D0E63E00B7F6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FEE3F424D0E63E00B7F6C1 /* YOKE_PROJECTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49FEE3E624D0E63E00B7F6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49FEE3CD24D0E63A00B7F6C1 /* YOKE PROJECT */;
+			targetProxy = 49FEE3E524D0E63E00B7F6C1 /* PBXContainerItemProxy */;
+		};
+		49FEE3F124D0E63E00B7F6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49FEE3CD24D0E63A00B7F6C1 /* YOKE PROJECT */;
+			targetProxy = 49FEE3F024D0E63E00B7F6C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49FEE3DC24D0E63E00B7F6C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49FEE3DD24D0E63E00B7F6C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49FEE3F624D0E63F00B7F6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49FEE3F724D0E63F00B7F6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49FEE3F924D0E63F00B7F6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YOKE PROJECT/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8S6GLW8PX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YOKE PROJECT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daboub.YOKE-PROJECT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49FEE3FA24D0E63F00B7F6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YOKE PROJECT/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8S6GLW8PX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YOKE PROJECT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daboub.YOKE-PROJECT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49FEE3FC24D0E63F00B7F6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8S6GLW8PX;
+				INFOPLIST_FILE = "YOKE PROJECTTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daboub.YOKE-PROJECTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOKE PROJECT.app/YOKE PROJECT";
+			};
+			name = Debug;
+		};
+		49FEE3FD24D0E63F00B7F6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8S6GLW8PX;
+				INFOPLIST_FILE = "YOKE PROJECTTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daboub.YOKE-PROJECTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOKE PROJECT.app/YOKE PROJECT";
+			};
+			name = Release;
+		};
+		49FEE3FF24D0E63F00B7F6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8S6GLW8PX;
+				INFOPLIST_FILE = "YOKE PROJECTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daboub.YOKE-PROJECTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YOKE PROJECT";
+			};
+			name = Debug;
+		};
+		49FEE40024D0E63F00B7F6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8S6GLW8PX;
+				INFOPLIST_FILE = "YOKE PROJECTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daboub.YOKE-PROJECTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YOKE PROJECT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FEE3C924D0E63A00B7F6C1 /* Build configuration list for PBXProject "YOKE PROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FEE3F624D0E63F00B7F6C1 /* Debug */,
+				49FEE3F724D0E63F00B7F6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FEE3F824D0E63F00B7F6C1 /* Build configuration list for PBXNativeTarget "YOKE PROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FEE3F924D0E63F00B7F6C1 /* Debug */,
+				49FEE3FA24D0E63F00B7F6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FEE3FB24D0E63F00B7F6C1 /* Build configuration list for PBXNativeTarget "YOKE PROJECTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FEE3FC24D0E63F00B7F6C1 /* Debug */,
+				49FEE3FD24D0E63F00B7F6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FEE3FE24D0E63F00B7F6C1 /* Build configuration list for PBXNativeTarget "YOKE PROJECTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FEE3FF24D0E63F00B7F6C1 /* Debug */,
+				49FEE40024D0E63F00B7F6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49FEE3C624D0E63A00B7F6C1 /* Project object */;
+}
